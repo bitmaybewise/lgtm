@@ -1,6 +1,11 @@
 {
   "name": "lgtm",
   "version": "0.1.0",
+  "author": {
+    "name": "Hercules Lemke Merscher",
+    "url": "https://github.com/hlmerscher/",
+    "email": "hi@lgtm.live"
+  },
   "main": "index.js",
   "license": "Creative Commons Zero v1.0 Universal",
   "dependencies": {
