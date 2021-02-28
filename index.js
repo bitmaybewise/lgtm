@@ -7,7 +7,7 @@ const getWidth = () => window.innerWidth;
 
 window.onload = () => {
     const main = document.getElementById('main')
-    const width = getWidth()
+    const width = getWidth();
     renderGrid({
         width,
         fetchGifs,
