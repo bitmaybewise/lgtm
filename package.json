@@ -7,7 +7,6 @@
     "email": "hi@lgtm.live"
   },
   "main": "index.js",
-  "license": "Creative Commons Zero v1.0 Universal",
   "dependencies": {
     "@giphy/js-components": "^4.1.3",
     "@giphy/js-fetch-api": "^2.1.0"
