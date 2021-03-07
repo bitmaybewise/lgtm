@@ -1,8 +1,22 @@
 import { GiphyFetch } from '@giphy/js-fetch-api'
 import { renderGrid } from '@giphy/js-components'
 
+function shuffle(array) {
+    let currentId = array.length;
+    while (0 !== currentId) {
+        let randomId = Math.floor(Math.random() * currentId);
+        currentId -= 1;
+        let tmp = array[currentId];
+        array[currentId] = array[randomId];
+        array[randomId] = tmp;
+    }
+    return array;
+}
+  
 const gf = new GiphyFetch(process.env.GIPHY_API_KEY)
-const fetchGifs = (offset) => gf.search('lgtm, approved, celebrate, thumbsup')
+const terms = ['lgtm', 'approved', 'celebrate', 'thumbsup', 'yup', 'yep', 'yes', 'yay']
+const randomTerm = shuffle(terms)[0]
+const fetchGifs = (offset) => gf.search(randomTerm, { limit: 27 })
 const getWidth = () => window.innerWidth
 
 window.onload = () => {
