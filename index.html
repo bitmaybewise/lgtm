@@ -21,5 +21,16 @@
       </p>
     </footer>
     <script src="index.js" async></script>
+
+    <!-- Panelbear Analytics - We respect your privacy -->
+    <script async src="https://cdn.panelbear.com/analytics.js?site=3tNia2w1unn"></script>
+    <script>
+      window.panelbear =
+        window.panelbear ||
+        function () {
+          (window.panelbear.q = window.panelbear.q || []).push(arguments);
+        };
+      panelbear("config", { site: process.env.PANELBEAR_SITE });
+    </script>
   </body>
 </html>
