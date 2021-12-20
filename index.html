@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LGTM</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>LGTM</h1>
-      <p>Ditch the boring "thumbs up" and leave your teammates a proper "Looks Good To Me" on their pull requests</p>
-    </header>
-    <main id="main"></main>
-    <footer>
-      <p>
-        <span>Powered by <a href="https://giphy.com/" target="_blank">GIPHY</a></span>
-        <span id="separator">&#10084;</span>
-        <span>Made by <a href="https://github.com/hlmerscher/lgtm" target="_blank">@hlmerscher</a></span>
-      </p>
-    </footer>
-    <script src="index.js" async></script>
 
-    <!-- Panelbear Analytics - We respect your privacy -->
-    <script async src="https://cdn.panelbear.com/analytics.js?site=3tNia2w1unn"></script>
-    <script>
-      window.panelbear =
-        window.panelbear ||
-        function () {
-          (window.panelbear.q = window.panelbear.q || []).push(arguments);
-        };
-      panelbear("config", { site: process.env.PANELBEAR_SITE });
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LGTM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>LGTM</h1>
+    <p>Ditch the boring "thumbs up" and leave your teammates a proper "Looks Good To Me" on their pull requests</p>
+  </header>
+  <main id="main"></main>
+  <footer>
+    <p>
+      <span>Powered by <a href="https://giphy.com/" target="_blank">GIPHY</a></span>
+      <span id="separator">&#10084;</span>
+      <span>Made by <a href="https://github.com/hlmerscher/lgtm" target="_blank">@hlmerscher</a></span>
+    </p>
+  </footer>
+  <script type="module" src="index.js" async></script>
+
+  <!-- Panelbear Analytics - We respect your privacy -->
+  <script async src="https://cdn.panelbear.com/analytics.js?site=3tNia2w1unn"></script>
+  <script>
+    window.panelbear =
+      window.panelbear ||
+      function () {
+        (window.panelbear.q = window.panelbear.q || []).push(arguments);
+      };
+    panelbear("config", { site: process.env.PANELBEAR_SITE });
+  </script>
+</body>
+
 </html>

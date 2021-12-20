@@ -6,13 +6,12 @@
     "url": "https://github.com/hlmerscher/",
     "email": "hlmerscher+lgtm@gmail.com"
   },
-  "main": "index.js",
   "dependencies": {
-    "@giphy/js-components": "^4.1.3",
-    "@giphy/js-fetch-api": "^2.1.0"
+    "@giphy/js-components": "^5.2.0",
+    "@giphy/js-fetch-api": "^4.1.2"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.0.1"
   },
   "scripts": {
     "dev": "parcel index.html",
