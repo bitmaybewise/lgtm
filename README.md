@@ -19,4 +19,4 @@ If you use NPM instead:
 
 # Deployment
 
-Provide the following environment variables: GIPHY_API_KEY, PANELBEAR_SITE
+Provide the following environment variables to AWS Amplify: GIPHY_API_KEY, PANELBEAR_SITE
