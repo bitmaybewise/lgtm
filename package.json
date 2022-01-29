@@ -11,6 +11,8 @@
     "@giphy/js-fetch-api": "^4.1.2"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.2.1",
+    "@parcel/transformer-webmanifest": "^2.2.1",
     "parcel": "^2.0.1"
   },
   "scripts": {
